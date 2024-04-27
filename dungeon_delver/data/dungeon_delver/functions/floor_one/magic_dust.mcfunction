@@ -1,0 +1,2 @@
+execute at @e[type=marker,tag=DunDel,tag=Loot,sort=random,limit=5] run summon item ~ ~ ~ {Tags:["DunDel","ItemLoot"],Item:{id:"minecraft:blaze_powder",Count:1b,tag:{display:{Name:'{"text":"Magic Powder","color":"light_purple","italic":false}',Lore:['{"text":"Used to purchase cards for your deck","bold":true,"italic":false}']},CustomModelData:5160001}}}
+scoreboard players add #Functions DunDelItemTimer 1

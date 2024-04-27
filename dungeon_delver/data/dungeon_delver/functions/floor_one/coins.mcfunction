@@ -1,0 +1,2 @@
+execute at @e[type=marker,tag=DunDel,tag=Loot,sort=random,limit=20] run summon item ~ ~ ~ {Tags:["DunDel","ItemLoot"],Item:{id:"minecraft:gold_nugget",Count:1b,tag:{display:{Name:'{"text":"Gold Coin","italic":false}',Lore:['{"text":"Currency to be used in the shop for items","color":"gold","bold":true,"italic":false}']},CustomModelData:5160001}}}
+scoreboard players add #Functions DunDelItemTimer 1

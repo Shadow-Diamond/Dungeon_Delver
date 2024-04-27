@@ -1,0 +1,25 @@
+{
+    "display":{
+        "icon": {
+            "item": "minecraft:spawner"
+        },
+        "title": {
+            "text": "nDungeon Delver",
+            "color": "green"
+        },
+        "description": "The datapack required to run Dungeon Delver",
+        "frame": "task",
+        "show_toast":true,
+        "announce_to_chat": false,
+        "background": "minecraft:textures/block/redstone_block.png"
+    },
+    "criteria": {
+        "joined_world":{
+            "trigger":"minecraft:tick"
+        }
+    },
+    "requirements": [
+        ["joined_world"]
+    ],
+    "parent": "datapack_name:datapacks/root"
+}

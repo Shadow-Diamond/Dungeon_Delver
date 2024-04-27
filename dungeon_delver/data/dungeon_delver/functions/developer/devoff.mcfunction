@@ -1,0 +1,1 @@
+scoreboard players set #Functions DunDelDevMode 0
