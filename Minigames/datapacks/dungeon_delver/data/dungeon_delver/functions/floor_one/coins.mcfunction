@@ -1,0 +1,2 @@
+## Spawns loot at Loot Markers for Level 1, then increments the timer
+execute at @e[type=marker,tag=DunDel,tag=Loot,tag=Lvl1,sort=random,limit=20] run summon item ~ ~ ~ {Tags:["DunDel","ItemLoot"],Item:{id:"minecraft:gold_nugget",count:1,components:{"minecraft:custom_name":'{"italic":false,"text":"Gold Coin"}',"minecraft:lore":['{"color":"gold","bold":true,"italic":false,"text":"Currency to be used in the shop for items"}'],"minecraft:custom_model_data":5160001}}}

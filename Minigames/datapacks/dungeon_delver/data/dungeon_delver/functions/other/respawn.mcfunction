@@ -1,0 +1,1 @@
+execute if entity @s[team=DunDelverRed] run function dungeon_delver:other/redrespawn
