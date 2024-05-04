@@ -1,0 +1,2 @@
+## Summons Level 1 Guardians at the Monster Markers
+execute at @e[type=marker,tag=DunDel,tag=Spawner,sort=random,limit=20] run summon zombie ~ ~ ~ {PersistenceRequired:1b,CanPickUpLoot:0b,Health:1f,IsBaby:0b,Tags:["DunDel","Enemy"],CustomName:'{"text":"Level One Guardian","color":"dark_red","bold":true}',Attributes:[{Name:zombie.spawn_reinforcements,Base:0}]}
